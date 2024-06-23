@@ -1,0 +1,85 @@
+@font-face {
+    font-family: 'Trebuchet MS';
+    src: url('Trebuchet MS.ttf');
+}
+
+@font-face {
+    font-family: 'Lato';
+    src: url('Lato/Lato-Light.ttf');
+}
+
+@font-face {
+    font-family: 'Genty Sans';
+    src: url('genty-sans-regular.otf');
+}
+
+html {
+    width: 100%;
+    height: 100%;
+    background-color: #E88D67;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+body > * {
+    width: 100%;
+}
+
+/* HEADER */
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 15%;
+}
+
+.greeting {
+    font-size: 40px;
+    font-family: 'Trebuchet MS';
+    font-weight: bold;
+}
+
+.divider {
+    width: 70%;
+    color: white;
+    border: 1px solid white;
+    opacity: 30%;
+}
+
+/* BODY */
+#content {
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+}
+
+.subject {
+    background-color: rgba(255, 255, 255, 15%);
+    width: 30%;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 15px;
+}
+
+.subjectName {
+    font-size: 30px;
+    font-family: Lato;
+}
+
+.subjectGrade {
+    font-size: 75px;
+    font-family: Genty Sans;
+}
+
+/* MISC */
+h1, h2, h3, h4, p {
+    color: white;
+    margin: 5px;
+}

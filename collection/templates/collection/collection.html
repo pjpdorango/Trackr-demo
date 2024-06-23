@@ -1,0 +1,20 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=1920, initial-scale=1.0">
+    <title>Trackr</title>
+    <link rel="stylesheet" href="{% static 'collection.css' %}">
+    <script src="{% static 'collection.js' %}"> </script>
+</head>
+<body onload="loadSubjects();">
+    <div class="header">
+        <h2 class="greeting"> Whats up, PooJay? </h2>
+    </div>
+    <hr class="divider">
+    <div id="content">
+    </div>
+</body>
+</html>
