@@ -1,6 +1,5 @@
 async function loadSubjects() {
-    console.log("nc");
-    let promise: Promise<Array<Object>> = fetch("http://127.0.0.1:8000/?usr='pj'")
+    let promise: Promise<Array<Object>> = fetch("http://127.0.0.1:8000/?usr=PJ")
         .then((response: Response) => response.text() 
             .then((text) => JSON.parse(text)));
 

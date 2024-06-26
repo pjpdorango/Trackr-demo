@@ -10,8 +10,7 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
 };
 function loadSubjects() {
     return __awaiter(this, void 0, void 0, function* () {
-        console.log("nc");
-        let promise = fetch("http://127.0.0.1:8000/?usr='pj'")
+        let promise = fetch("http://127.0.0.1:8000/?usr=PJ")
             .then((response) => response.text()
             .then((text) => JSON.parse(text)));
         promise.then((collectionData) => {
